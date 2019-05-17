@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300sp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehaviour">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/user_ids"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:padding="15sp"/>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

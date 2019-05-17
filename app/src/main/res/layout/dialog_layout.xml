@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehaviour">
+
+   <!-- <LinearLayout
+        android:id="@+id/edit_profile"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/edit_profile"
+            android:tint="@android:color/white"
+            android:padding="2sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/edit_name_contact_no"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/> -->
+
+    <LinearLayout
+        android:id="@+id/change_mail_id"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/mail"
+            android:tint="@android:color/white"
+            android:padding="2sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/change_e_mail"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/change_password"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/password"
+            android:tint="@android:color/white"
+            android:padding="2sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/change_password"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="10sp"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logout"
+            android:tint="@android:color/white"
+            android:padding="2sp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:text="@string/logout"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
